@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#top-bar {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  flex-wrap: wrap;
+}
+
+#heading {
+  font-family: 'Rubik Burned', system-ui;
+}
+
+#search-button {
+  margin-top: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+#list-container {
+  width: 100%;
+  height: 20vh;
+}
+
+#pk-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+#pk-list li {
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #6b6262;
+  border-radius: 5px;
+  display: inline-block;
+  color: rgb(243, 63, 63);
+}
+
+#pk-list li:hover {
+  background-color: #ecebf7;
+}
+
+
+#pk-info {
+  width: 100%;
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pk-img {
+  width: 140px;
+}
+
+#pk-name {
+  font-family: 'Rubik Burned', system-ui;
+
+}
+#pk-types{
+  color: #6b6262;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+}

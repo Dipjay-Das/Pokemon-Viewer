@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Pokémon Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="top-bar">
+      <div id="heading">
+        <h1>Pokémon List</h1>
+      </div>
+      <div id="search-button">
+        <label for="search">Search Pokémon:</label>
+        <input type="text" id="search" oninput="searchFunction()">
+      </div>
+    </div>
+
+    <div id="list-container">
+      <ul id="pk-list"></ul>
+    </div>
+
+
+
+
+    
+
+    <div id="pk-info" class="pk-css">
+      <h1 id="pk-name"></h1>
+      <img id="pk-img" alt="">
+      <p id="pk-types"></p>
+    </div>
+  </div>
+
+</body>
+
+</html>
